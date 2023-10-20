@@ -11,9 +11,9 @@ public class Car {
 }
 
 class Engine {
-   public void finalize() {
-       System.out.println("Engine is deleted");
-   }
+    public void finalize() {
+        System.out.println("Engine is deleted");
+    }
 }
 
 class TestCar {
